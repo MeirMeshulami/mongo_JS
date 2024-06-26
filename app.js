@@ -34,9 +34,6 @@ app.get('/api/products', async (req, res) => {
         console.error(error);
         res.status(500).json({ message: "Internal server error" });
     } 
-    // finally {
-    //     await client.close();
-    // }
 });
 app.post('/api/addProduct', async (req, res) => {
     try {

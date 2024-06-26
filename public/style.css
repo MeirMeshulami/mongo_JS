@@ -1,0 +1,36 @@
+
+.container{
+    /* width: 400px; */
+    margin:auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    text-align: right;
+}
+.line{
+    margin-bottom: 15px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+
+}
+.btn{
+    height: 50px;
+    width: 100px;   
+    border-radius: 10px;
+}
+p{
+    display: inline;
+    margin-right: 15px;
+}
+.add .add-btn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
